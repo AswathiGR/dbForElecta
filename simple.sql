@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS `voter_details` (
-  `voter_id` int(11) NOT NULL AUTO_INCREMENT,
-  `votername` varchar(255) DEFAULT NULL,
+  `Sl.No` int(11) NOT NULL AUTO_INCREMENT,
+  `voter_id` varchar(255) DEFAULT NULL,
   `first_name` varchar(50) DEFAULT NULL,
   `last_name` varchar(50) DEFAULT NULL,
   `gender` varchar(10) DEFAULT NULL,
